@@ -246,19 +246,9 @@ section.why-us {
 }
 
 #tabs {
-  text-align: center;
-}
-section.why-us {
-    background-image: url(../images/choosing-bg.jpg);
-    background-color: #172238;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 100px;
+  text-align: right;
 }
 
-#tabs {
-  text-align: center;
-}
 #tabs ul {
   margin: 0;
   padding: 0;
@@ -363,11 +353,15 @@ section.why-us {
 }
 
 .tabs-content img {
-    width: 100%;
+    width: 35%;
     overflow: hidden;
     padding-right: 45px;
+    display: inline;
 }
-
+.whytext{
+  display: inline;
+  text-align: right;
+}
 @media screen and (max-width: 767px) {
 
   .tabs-content img {
