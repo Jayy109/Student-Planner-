@@ -313,7 +313,7 @@ section.why-us {
 /* Courses */
 
 section.courses {
-    background-image: url(../images/choosing-bg.jpg);
+    background-image: url(assets/tips.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #172238;
@@ -397,7 +397,7 @@ section.courses .owl-carousel button.active {
 }
 
 section.contact {
-    background-image: url(../images/contact-bg.jpg);
+    background-image: url(assets/contact-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #172238;
