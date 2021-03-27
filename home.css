@@ -22,6 +22,13 @@ body{
     background-color: #182434;
 }
 
+.section-heading {
+    text-align: center;
+    margin-bottom: 70px;
+    color: #FF7F50;
+}
+
+
 @media screen and (max-width: 1050px) {
   .main-header .logo {
       padding-left: 30px!important;
