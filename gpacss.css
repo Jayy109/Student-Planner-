@@ -18,6 +18,47 @@ p {
     font-size: 13px;
     line-height: 22px;
 }
+body {
+  font-family: 'Lucida Grande', Verdana, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #FF7F50;
+}
+
+table {
+  align-items: center;
+  border-color: #222222;
+  border-width: 0 0 1px 1px;
+  border-spacing: 0;
+  border-style: solid;
+}
+
+th {
+  white-space: nowrap;
+}
+
+th, td {
+  border-color: #222222;
+  border-width: 1px 1px 0 0;
+  border-style: solid;
+  font-size: 30px;
+  margin: 0;
+  padding: 4px;
+}
+
+#grades_table {
+  margin-top: 4px;
+}
+
+.grade_number {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.grade_field, .credits_field {
+  text-align: center;
+}
+
 
 @media screen and (max-width: 1050px) {
   .main-header .logo {
@@ -144,4 +185,97 @@ p {
 .main-nav li:hover a,
 .main-nav li.active a {
     background-color: #FF7F50;
+}
+
+
+@media (max-width: 950px) {
+  .main-nav li:hover a,
+  .main-nav li.active a {
+    border: 2px solid transparent;
+    border-bottom: 1px solid rgba(250,250,250,0.25);
+  }
+}
+section.video .left-content .main-button {
+  margin-top: 30px;
+}
+
+.main-banner {
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  margin-bottom: -7px;
+}
+
+#bannerimage {
+    min-width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 7px;
+    width: 100%;
+}
+
+.main-banner .caption {
+  text-align: center;
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.main-banner .caption h6 {
+  margin-top: 0px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.main-banner .caption h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 64px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.main-banner .caption h2 em {
+  font-style: normal;
+  color: #FF7F50;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 1180px) {
+
+  .main-banner .caption h6 {
+    font-weight: 500;
+  }
+
+  .main-banner .caption h2 {
+    font-size: 58px;
+  }
+
+}
+@media screen and (max-width: 767px) {
+  .main-banner .caption h6 {
+    font-weight: 500;
+  }
+  .main-banner .caption h2 {
+    font-size: 36px;
+  }
+
 }
