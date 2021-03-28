@@ -47,13 +47,15 @@
           <div class="caption">
             <div class="description">
               <h1>Decimal GPA Calculator</h1>
-  <p>This is a GPA calculator that conforms to the decimal grading system in use by certain colleges. The class/course name field is just for reference and is not required. Rows with the grade and/or credits fields that are blank are ignored. Grades entered are not saved.</p>
+  <p>This GPA Calculator uses the decimal based system system used by most colleges. The grades and Credits need to be added as integers. For VIT students please follow the given grade decimal values to calculate the effective GPA. </p>
 
-  <p>Omit grades that are not a decimal, such as but are not limited to: I, W, *, Y, NC, N, WI, R, CR</p>
-</div>
+  <h4> S:10   A:9   B:8   C:7   D:6   E:5   F:4   N:0 </h4>
+
+  </div>
 <div class="gptab">
   <form id="gpa_form" action="index.html">
     <a href="javascript:void(0);" id="add_row">Add Row</a>
+    <div class="inputtab">
     <table id="grades_table">
       <thead>
         <tr>
@@ -66,15 +68,16 @@
       <tbody>
       </tbody>
     </table>
+</div>
     <input type="submit" value="Calculate" />
   </form>
+
   <div id="gpa_output"></div>
 
             </div>
       </div>
     </div>
   </section>
-
 
 </body>
 </html>

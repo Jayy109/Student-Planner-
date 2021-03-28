@@ -24,7 +24,7 @@ body {
   color: #FF7F50;
 }
 
-table {
+.inputtab table {
   align-items: center;
   border-color: #222222;
   border-width: 0 0 1px 1px;
@@ -32,11 +32,11 @@ table {
   border-style: solid;
 }
 
-th {
+.inputtab th {
   white-space: nowrap;
 }
 
-th, td {
+.inputtab th, td {
   border-color: #222222;
   border-width: 1px 1px 0 0;
   border-style: solid;
@@ -215,7 +215,10 @@ section.video .left-content .main-button {
     z-index: -1;
 }
 
-
+.refer{
+    display: inline;
+    font-size: 10px;
+}
 
 .video-overlay {
     position: absolute;
