@@ -264,6 +264,11 @@ section.video .left-content .main-button {
   color: #FF7F50;
   font-weight: 900;
 }
+#icon{
+  padding: 15px;
+  width: "30px";
+  height: "30px";
+}
 
 @media screen and (max-width: 1180px) {
 
