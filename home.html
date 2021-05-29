@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/owl.css">
 
-
    </head>
 
 <body>
@@ -25,12 +24,7 @@
     <nav id="menu" class="main-nav" role="navigation">
       <ul class="main-menu">
         <li><a href="#section1">Home</a></li>
-        <li class="has-submenu"><a href="#section2">Tools </a>
-          <ul class="sub-menu">
-            <li><a href="gpa.html">CGPA Calculator</a></li>
-            <li><a href="#section3">Dashboard</a></li>
-          </ul>
-        </li>
+        <li class="has-submenu"><a href="#section2">About Us</a></li>
         <li><a href="#section4">Tips</a></li>
         <li><a href="#section6">Contact</a></li>
       </ul>
@@ -50,7 +44,7 @@
                 <li>
                   <!-- Calculator icon -->
                     <img id="icon" src="https://img.icons8.com/ios-filled/50/26e07f/gpa-calculator.png"/>
-                  GPA CALCULATOR</li>
+                 <a href="gpa.html">GPA CALCULATOR</a></li>
                 <li>
                     <img id="icon" src="https://img.icons8.com/ios-filled/50/26e07f/e-commerce.png"/>
                COURSJET</li>
@@ -216,26 +210,27 @@ If you are in control of your calendar, you will be able to complete your assign
         </div>
         <div class="col-md-6">
       
-          <form id="contact" action="" method="post">
+          <form id="contact" action="" method="post" name="myForm" onsubmit="return validate()">
             <div class="row">
               <div class="col-md-6">
                   <fieldset>
-                    <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
+                    <input name="name" type="text" class="form-control" placeholder="Your Name" required="">
                   </fieldset>
                 </div>
                 <div class="col-md-6">
                   <fieldset>
-                    <input name="email" type="text" class="form-control" id="email" placeholder="Your Email" required="">
+                    <input name="email" type="text" class="form-control" placeholder="Your Email" required="">
                   </fieldset>
                 </div>
               <div class="col-md-12">
                 <fieldset>
-                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                  <textarea name="message" rows="6" class="form-control" placeholder="Your message..." required=""></textarea>
                 </fieldset>
               </div>
               <div class="col-md-12">
                 <fieldset>
                   <button type="submit" id="form-submit" class="button">Send Message Now</button>
+                  <p id="name"></p>
                 </fieldset>
               </div>
             </div>
@@ -283,11 +278,9 @@ If you are in control of your calendar, you will be able to complete your assign
         $('.nav li:first').addClass('active');
 
         var showSection = function showSection(section, isAnimate) {
-          var
-          direction = section.replace(/#/, ''),
+          var direction = section.replace(/#/, ''),
           reqSection = $('.section').filter('[data-section="' + direction + '"]'),
           reqSectionPos = reqSection.offset().top - 0;
-
           if (isAnimate) {
             $('body, html').animate({
               scrollTop: reqSectionPos },
@@ -314,7 +307,6 @@ If you are in control of your calendar, you will be able to complete your assign
             }
           });
         };
-
         $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
           if($(e.target).hasClass('external')) {
             return;
@@ -327,5 +319,27 @@ If you are in control of your calendar, you will be able to complete your assign
         $(window).scroll(function () {
           checkSection();
         });
+    function validate()
+    {
+    var f=0;
+    var email=document.forms["myForm"]["email"].value; 
+    var mssg=document.forms["myForm"]["message"].value; 
+    var name=document.forms["myForm"]["name"].value; 
+    var pattern=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    if(email.match(pattern))
+   {
+     document.getElementById("name").innerHTML=" ";
+    f++;
+     }
+    else 
+    document.getElementById("name").innerHTML="*please provide correct email";
+    pattern=/^[a-z A-Z]{1,30}$/; 
+    if(name.match(pattern))
+    {
+     document.getElementById("name").innerHTML=" ";
+     f++;
+    }
+    else document.getElementById("name").innerHTML="*please provide name in less than 30 characters";
+    }
     </script>
 </html>

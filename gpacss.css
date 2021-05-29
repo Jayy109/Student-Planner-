@@ -182,22 +182,8 @@ body {
     border: none;
 }
 
-.main-nav li:hover a,
-.main-nav li.active a {
-    background-color: #FF7F50;
-}
 
 
-@media (max-width: 950px) {
-  .main-nav li:hover a,
-  .main-nav li.active a {
-    border: 2px solid transparent;
-    border-bottom: 1px solid rgba(250,250,250,0.25);
-  }
-}
-section.video .left-content .main-button {
-  margin-top: 30px;
-}
 
 .main-banner {
   position: relative;
@@ -281,4 +267,22 @@ section.video .left-content .main-button {
     font-size: 36px;
   }
 
+}
+#gpa_output{
+  padding-top: 10px;
+  font-size: 35px;
+}
+
+#button {
+  background-color: #FF7F50; 
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.inputtab{
+  padding-bottom: 25px;
 }

@@ -47,7 +47,8 @@
     }
   }
 
-  $(document).ready(function () {
+  $(document).ready(function () 
+  {
     addRow(3);
 
     $("#add_row").click(function () {
@@ -56,7 +57,7 @@
 
     $("#gpa_form").submit(function (e) {
       e.preventDefault();
-      const dic = {'S':10,'A':9,'B':8,'C':7,'D':6,'E':5,'F':0}
+    
       var gradePoints = 0.0;
       var totalCredits = 0.0;
 
