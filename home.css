@@ -269,6 +269,13 @@ section.video .left-content .main-button {
   width: "30px";
   height: "30px";
 }
+.icontext{
+  padding: 0in;
+  font-size:20px ;
+  font-weight: bolder;
+  font-style: normal;
+  color: coral;
+}
 
 @media screen and (max-width: 1180px) {
 
@@ -305,7 +312,7 @@ section.why-us {
 
 
 #tabs h4 {
-    margin-top: -5px;
+    margin-top: px;
     font-size: 32px;
     font-weight: 700;
     letter-spacing: 1px;
