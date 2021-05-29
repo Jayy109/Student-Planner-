@@ -15,7 +15,7 @@ ul {
 }
 
 p {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 22px;
 }
 body {
@@ -282,6 +282,16 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+#add_row {
+  background-color: #FF7F50; 
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
 }
 .inputtab{
   padding-bottom: 25px;
