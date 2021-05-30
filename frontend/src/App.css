@@ -1,0 +1,222 @@
+.App {
+  text-align: center;
+  background-color: rgba(20,34,57,0.95);
+  background-image: url(bg.jpg);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #dee0e6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navbarcss {
+  display: flex;
+  height: 13vh;
+  background-color: rgba(20,34,57,0.95);
+}
+
+.navbarcss:active {
+  color: #FF7F50;
+}
+
+.brand {
+  padding-right: 30%;
+  padding-left: 7%;
+  padding-top: 2%;
+  float: left;
+  line-height: 80px; 
+  color: #fff;
+}
+
+.brand {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+}
+.brand em {
+  font-style: normal;
+  color: #FF7F50;
+}
+
+.brand a:hover {
+  text-decoration: none;
+  color: #FF7F50;
+}
+
+.btnlogin {
+  border-radius: 5px;
+  border-style: none;
+  width: 30%;
+  height: 30%;
+  color: white;
+  background-color: #FF7F50;
+  margin-left: 40%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.btnlogin a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btnlogin a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btngetstarted {
+  border-radius: 5px;
+  border-style: none;
+  width: 21.5rem;
+  height: 3rem;
+  color: white;
+  background-color: #FF7F50;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-bottom: 20%;
+}
+
+.btngetstarted a {
+  padding: 10%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.btngetstarted a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-weight: bold;
+  font-size: 36px;
+  text-decoration: none;
+  color: #FF7F50;
+}
+
+p {
+  padding-bottom: 10%;
+}
+
+.btnsubmit {
+  border-radius: 5px;
+  border-style: none;
+  width: 23.5rem;
+  height: 3rem;
+  color: white;
+  background-color: #FF7F50;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.btnsubmit a {
+  padding: 10%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.btnsubmit a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.flexbox {
+  display: flex;
+  padding-left: 0px;
+  margin-left: 0%;
+  padding-bottom: 2px;
+       /* If you remove this .container will shrink to wrap around .icon's */
+  flex-wrap: wrap;
+  justify-content: center;  /* This centers .icon's along a horizontal axis. */
+  align-items: baseline; 
+  color: white;
+}
+
+img {
+  padding-left: 15%;
+  height: 60%;
+  padding-bottom: 5px;
+}
+
+.imgcolumn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textcolumn {
+  flex-grow: 2;
+}
+.product {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  }
+  
+.imgclock {
+  padding-top: 5%;
+  padding-left: 70%;
+}
+
+@media screen and (max-width: 800px) {
+  .flexbox {
+    display: block;
+  }
+  .img {
+    padding-left: 18%;
+    height: 29%;
+    width: 128%;
+  }
+}
+
+a {
+  padding-left: 10%;
+}
+
+.mid {
+  padding-top: 3%;
+}
+
+.mid a {
+  padding-left: 10%;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 30px;
+  color: #fefeff;
+}
+.mid a:hover{
+  text-decoration: none;
+  color: #FF7F50;
+}
+.unflex {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  height: 30%;
+  padding-top: 5%;
+  padding-right: 15%;
+}
