@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/parthsharma1410/Blockchain-Ecommerce.git"
+    "url": "https://github.com/Jayy109/Student-Planner-Exam-tips-GPA-Calculator-With-Blockchain-Ecommerce-Courses-Website"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/parthsharma1410/Blockchain-Ecommerce/issues"
+    "url": "mongodb+srv://iwp:study123@studyplanner.enpqb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
   },
-  "homepage": "https://github.com/parthsharma1410/Blockchain-Ecommerce#readme",
+  "homepage": "https://github.com/Jayy109/Student-Planner-Exam-tips-GPA-Calculator-With-Blockchain-Ecommerce-Courses-Website#readme",
   "dependencies": {
     "@openzeppelin/contracts": "^4.1.0"
   }
