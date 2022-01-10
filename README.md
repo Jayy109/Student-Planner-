@@ -1,4 +1,4 @@
-# Student-Planner - IWP Project With Blockchain - By Sumedha Vadlamani 19BCT0256 & Jaydev Jangiti 19BCT0235
+# Student-Planner - IWP Project With Blockchain 
 A free platform planner website for students designed to create, manage and keep track of GPA and establish an effective study routine by scheduling events on your Calendar.
 The website is designed with a simple UI/UX for ease of use. The home page gives insights on why students struggle to study and contains tips and tricks to study more effectively.
 The GPA Calculator allows students to add multiple courses according to their needs and calculates the cumulate grade point for the semester.
